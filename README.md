@@ -1,0 +1,3 @@
+# Uncommon HTML Bug: Accessing Non-Existent Elements
+
+This repository demonstrates a common yet often overlooked error in HTML/JavaScript: attempting to manipulate the properties of an element that doesn't exist in the DOM.  The bug showcases a simple HTML file with a script that attempts to alter the `innerHTML` of an element which is not present.  The solution corrects this by performing a check before the operation.
